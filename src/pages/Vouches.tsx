@@ -8,7 +8,7 @@ export default function Vouches() {
     // para añadir vouch tienes q poner la imagen en src/assets y luego añadir un objeto aqui con su id y url
     {
       id: 1,
-      imageUrl: "/src/assets/vouch1.png",
+      imageUrl: "/assets/vouch1.png",
     },
     {
       id: 2,
