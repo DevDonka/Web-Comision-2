@@ -5,67 +5,21 @@ export default function Vouches() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const vouches = [
-    // para añadir vouch tienes q poner la imagen en src/assets y luego añadir un objeto aqui con su id y url
-    {
-      id: 1,
-      imageUrl: "src/assets/vouch1.png",
-    },
-    {
-      id: 2,
-      imageUrl: "/src/assets/vouch2.png",
-    },
-    {
-      id: 3,
-      imageUrl: "/src/assets/vouch3.png",
-    },
-    {
-      id: 4,
-      imageUrl: "/src/assets/vouch4.png",
-    },
-    {
-      id: 5,
-      imageUrl: "/src/assets/vouch5.png",
-    },
-    {
-      id: 6,
-      imageUrl: "/src/assets/vouch6.png",
-    },
-    {
-      id: 7,
-      imageUrl: "/src/assets/vouch7.png",
-    },
-    {
-      id: 8,
-      imageUrl: "/src/assets/vouch8.png",
-    },
-    {
-      id: 9,
-      imageUrl: "/src/assets/vouch9.png",
-    },
-    {
-      id: 10,
-      imageUrl: "/src/assets/vouch10.png",
-    },
-    {
-      id: 11,
-      imageUrl: "/src/assets/vouch11.png",
-    },
-    {
-      id: 12,
-      imageUrl: "/src/assets/vouch12.png",
-    },
-    {
-      id: 13,
-      imageUrl: "/src/assets/vouch13.png",
-    },
-    {
-      id: 14,
-      imageUrl: "/src/assets/vouch14.png",
-    },
-    {
-      id: 15,
-      imageUrl: "/src/assets/vouch15.png",
-    },
+    { id: 1, imageUrl: "/assets/vouch1.png" },
+    { id: 2, imageUrl: "/assets/vouch2.png" },
+    { id: 3, imageUrl: "/assets/vouch3.png" },
+    { id: 4, imageUrl: "/assets/vouch4.png" },
+    { id: 5, imageUrl: "/assets/vouch5.png" },
+    { id: 6, imageUrl: "/assets/vouch6.png" },
+    { id: 7, imageUrl: "/assets/vouch7.png" },
+    { id: 8, imageUrl: "/assets/vouch8.png" },
+    { id: 9, imageUrl: "/assets/vouch9.png" },
+    { id: 10, imageUrl: "/assets/vouch10.png" },
+    { id: 11, imageUrl: "/assets/vouch11.png" },
+    { id: 12, imageUrl: "/assets/vouch12.png" },
+    { id: 13, imageUrl: "/assets/vouch13.png" },
+    { id: 14, imageUrl: "/assets/vouch14.png" },
+    { id: 15, imageUrl: "/assets/vouch15.png" },
   ];
 
   const openModal = (imageUrl) => {
